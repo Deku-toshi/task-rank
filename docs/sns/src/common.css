@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800&display=swap');
+:root{--bg:#1d2240;--bg2:#272d52;--s:#ff6b6b;--a:#ffa94d;--b:#ffd43b;--c:#69db7c;--track:#353c6b;--chip:#f1f3f5;--ink:#1d2240;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'M PLUS Rounded 1c',sans-serif;background:var(--bg);overflow:hidden}
+.row{display:flex;align-items:stretch;gap:10px}
+.lbl{display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--ink);border-radius:12px}
+.trk{flex:1;background:var(--track);border-radius:12px;display:flex;align-items:center;gap:10px;padding:0 12px}
+.chip{background:var(--chip);color:var(--ink);border-radius:8px;font-weight:700;white-space:nowrap}
+.s{background:var(--s)}.a{background:var(--a)}.b{background:var(--b)}.c{background:var(--c)}
